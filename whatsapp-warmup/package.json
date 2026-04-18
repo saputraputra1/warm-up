@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-warmup",
+  "version": "1.0.0",
+  "description": "WhatsApp Warm-Up Tool for natural account trust building",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "express": "^4.18.2",
+    "pino": "^8.17.2",
+    "qrcode-terminal": "^0.12.0",
+    "node-cron": "^3.0.3",
+    "csv-parser": "^3.0.0",
+    "fs-extra": "^11.2.0"
+  },
+  "keywords": ["whatsapp", "warmup", "baileys", "automation"],
+  "author": "WarmUp Tool"
+}
